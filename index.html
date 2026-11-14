@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>BlinkTwice — Privacy Policy</title>
+<meta name="description" content="Privacy Policy for BlinkTwice, the menu-bar eye-break app for Mac. BlinkTwice does not collect any data.">
+<style>
+:root{--bg:#fbfaf8;--fg:#1d1d1f;--muted:#5f6368;--card:#fff;--line:#e6e3de;--accent:#3a6df0}
+@media (prefers-color-scheme:dark){:root{--bg:#121214;--fg:#f2f2f4;--muted:#a1a1a8;--card:#1c1c1f;--line:#2e2e33;--accent:#7ea2ff}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.6 -apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,Helvetica,Arial,sans-serif;-webkit-text-size-adjust:100%}
+main{max-width:720px;margin:0 auto;padding:48px 22px 64px}
+header{margin-bottom:32px}
+.app{font-size:14px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600}
+h1{font-size:clamp(30px,6vw,40px);line-height:1.15;margin:6px 0 8px}
+.updated{color:var(--muted);font-size:15px;margin:0}
+.lead{font-size:19px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin:28px 0}
+h2{font-size:21px;margin:36px 0 8px}
+h3{font-size:17px;margin:22px 0 4px}
+p,li{color:var(--fg)}
+ul{padding-left:22px}
+a{color:var(--accent)}
+code{font:14px ui-monospace,SFMono-Regular,Menlo,monospace;background:var(--card);border:1px solid var(--line);border-radius:6px;padding:1px 5px;word-break:break-all}
+kbd{font:14px ui-monospace,Menlo,monospace;border:1px solid var(--line);border-bottom-width:2px;border-radius:5px;padding:0 5px;background:var(--card)}
+footer{margin-top:48px;padding-top:20px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
+</style>
+</head>
+<body>
+<main>
+<header>
+<div class="app">BlinkTwice for Mac</div>
+<h1>Privacy Policy</h1>
+<p class="updated">Last updated: 14 November 2026</p>
+</header>
+
+<p class="lead"><strong>BlinkTwice does not collect any data.</strong> It never connects to the internet, and nothing you do in it leaves your Mac.</p>
+
+<h2>No network access</h2>
+<p>BlinkTwice runs in the macOS App Sandbox without network permission, so macOS itself blocks any connection. There are no analytics, crash reporters, ads, accounts, tracking or update checks.</p>
+
+<h2>Camera (optional)</h2>
+<p>The camera is off until you turn on “Use camera” in the Welcome window or in Settings.</p>
+<ul>
+<li>It runs only while a break’s countdown is running. The camera light is on only then.</li>
+<li>Each frame is checked on your Mac, using Apple’s on-device Vision framework, for one thing: whether your eyes look open. Then the frame is discarded.</li>
+<li>No photo, video or frame is ever saved, shown or sent anywhere.</li>
+</ul>
+<p>You can turn the camera off at any time in BlinkTwice Settings, or revoke access in System Settings › Privacy &amp; Security › Camera.</p>
+
+<h2>Microphone and calls</h2>
+<p>To avoid starting a break during a call, BlinkTwice asks macOS whether a microphone or camera is in use by any app. It only sees “in use” or “not in use”. It never listens to or records audio and has no microphone access.</p>
+
+<h2>Activity</h2>
+<p>To count screen time, BlinkTwice asks macOS how many seconds have passed since your last keyboard or mouse input. It never sees what you type or click.</p>
+
+<h2>Your images and settings</h2>
+<p>Images you add to a custom Cover-up are resized and stored only inside BlinkTwice’s own container on your Mac (<code>~/Library/Containers/com.mohitmehta.BlinkTwice/</code>). Your originals are never changed. Your preferences are stored locally and are not synced or sent anywhere.</p>
+
+<h2>Children</h2>
+<p>BlinkTwice collects no personal information from anyone, including children under 13 (or the equivalent age in your country).</p>
+
+<h2>Changes to this policy</h2>
+<p>If this policy changes, the updated version will be posted on this page with a new “Last updated” date. A future version of the app will never start collecting data without this policy being updated first.</p>
+
+<h2>Contact</h2>
+<p>Questions about privacy: <a href="mailto:pihumventures@gmail.com">pihumventures@gmail.com</a></p>
+
+<footer>BlinkTwice · <a href="https://pihu-m.github.io/blinktwice-support/">Support</a></footer>
+</main>
+</body>
+</html>
